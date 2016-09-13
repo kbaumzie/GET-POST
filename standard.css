@@ -1,0 +1,68 @@
+/*
+ * Author: Kayla Nussbaum
+ * Standard CSS for SE Page
+ * =========================
+ */
+
+
+/* Classic Styles */
+
+h1 {
+  font-family: "Tahoma", "Verdana";
+  color: purple;
+}
+
+h2 {
+  font-family: "Tahoma", "Verdana";
+}
+
+p{
+  font-family: "Tahoma", "Verdana";
+}
+
+a {
+  font-family: "Tahoma", "Verdana";
+}
+
+
+/* Background */
+
+#lingrad1 {
+  background: "light blue";
+  background: -webkit-linear-gradient(left top, #24cdd4, #9e379f);
+  background: -moz-linear-gradient(bottom right, #24cdd4, #9e379f);
+  background: linear-gradient(to bottom right, #24cdd4, #9e379f);
+}
+
+#bg1 {
+  background-color: #f3cce0;
+}
+
+/* Buttons */
+
+.a-btn {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 6px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none!important;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: "Tahoma", "Verdana";
+}
+
+.a-btn:hover {
+  background-color: #80d66d;
+  box-shadow: 0 4px 8px 0;
+}
+
+/* Form Style */
+
+.formsty {
+  font-family: "Tahoma", "Verdana";
+}
